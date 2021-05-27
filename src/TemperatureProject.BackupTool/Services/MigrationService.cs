@@ -5,15 +5,16 @@ using System.IO;
 using System.Linq;
 using TemperatureProject.BackupTool.Exception;
 using TemperatureProject.Core;
+using TemperatureProject.Core.Services;
 
 namespace TemperatureProject.BackupTool.Services
 {
     internal class MigrationService
     {
-        private readonly DbService dbService;
+        private readonly IDbService dbService;
         private readonly UserInterfaceService interfaceService;
 
-        public MigrationService(DbService dbService, UserInterfaceService interfaceService)
+        public MigrationService(IDbService dbService, UserInterfaceService interfaceService)
         {
             this.dbService = dbService;
             this.interfaceService = interfaceService;

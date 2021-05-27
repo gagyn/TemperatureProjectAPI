@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureProject.BackupTool", "TemperatureProject.BackupTool\TemperatureProject.BackupTool.csproj", "{2D4AC069-BCF2-402C-ACD3-1B80CF1C98E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureProject.Core", "TemperatureProject.Core\TemperatureProject.Core.csproj", "{2DCB777C-3515-4C8A-A5DB-207E7BCCBE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureProject.Core", "TemperatureProject.Core\TemperatureProject.Core.csproj", "{2DCB777C-3515-4C8A-A5DB-207E7BCCBE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureProject.API", "TemperatureProject.API\TemperatureProject.API.csproj", "{83D5C50F-50FF-485C-89EF-CDDC249EDBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureProject.API", "TemperatureProject.API\TemperatureProject.API.csproj", "{83D5C50F-50FF-485C-89EF-CDDC249EDBD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

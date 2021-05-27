@@ -1,14 +1,15 @@
 ﻿using System;
 using System.IO;
 using Newtonsoft.Json;
+using TemperatureProject.Core.Services;
 
 namespace TemperatureProject.BackupTool.Services
 {
     internal class DbBackupService
     {
-        private readonly DbService dbService;
+        private readonly IDbService dbService;
 
-        public DbBackupService(DbService dbService)
+        public DbBackupService(IDbService dbService)
         {
             this.dbService = dbService;
         }
